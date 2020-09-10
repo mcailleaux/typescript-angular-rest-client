@@ -1,0 +1,21 @@
+export { Client } from './decorators/client';
+export {
+  RestClient,
+  Headers,
+  Map,
+  Timeout,
+  OnEmit,
+  Body,
+  Header,
+  Query,
+  Path,
+  PlainBody,
+  MediaType,
+  Produces,
+  Get,
+  Post,
+  Patch,
+  Put,
+  Delete,
+  Head,
+} from 'typescript-rest-client';
