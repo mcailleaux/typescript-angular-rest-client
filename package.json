@@ -1,11 +1,8 @@
 {
   "name": "typescript-angular-rest-client",
-  "version": "1.0.4-SNAPSHOT",
+  "version": "1.0.6-SNAPSHOT",
   "description": "Angular HTTP client with Typescript Declarative Annotations, Observables, Interceptors and Timeouts.",
-  "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
   "scripts": {
     "lint": "tslint --project .",
     "build": "tsc"
@@ -31,7 +28,7 @@
     "@angular/common": "^10.1.1",
     "rxjs": "^6.6.3",
     "zone.js": "^0.11.1",
-    "typescript-rest-client": "^1.0.5-SNAPSHOT"
+    "typescript-rest-client": "^1.0.8-SNAPSHOT"
   },
   "devDependencies": {
     "@types/node": "^14.6.4",
