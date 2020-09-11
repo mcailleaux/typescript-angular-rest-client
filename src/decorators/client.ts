@@ -18,6 +18,7 @@ export function Client(args: {
         body: any,
         init: { headers: any; params: any; withCredentials: boolean }
       ) => new HttpRequest(method, resUrl, body, init),
+      defaultResponseBody: (res) => res.body,
     })(Target);
   };
 }

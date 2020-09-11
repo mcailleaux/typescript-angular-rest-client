@@ -1,6 +1,6 @@
 {
   "name": "typescript-angular-rest-client",
-  "version": "1.0.20-SNAPSHOT",
+  "version": "1.0.24-SNAPSHOT",
   "description": "Angular HTTP client with Typescript Declarative Annotations, Observables, Interceptors and Timeouts.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/mcailleaux/typescript-angular-rest-client#readme",
   "dependencies": {
-    "typescript-rest-client": "^1.0.18-SNAPSHOT"
+    "typescript-rest-client": "^1.0.28-SNAPSHOT"
   },
   "devDependencies": {
     "@angular/common": "^10.1.1",
