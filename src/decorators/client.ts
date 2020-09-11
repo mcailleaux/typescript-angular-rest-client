@@ -2,9 +2,9 @@ import { Client as GenericClient } from 'typescript-rest-client';
 import { HttpHeaders, HttpParams, HttpRequest } from '@angular/common/http';
 
 export function Client(args: {
-  serviceId?: string;
-  baseUrl?: string;
-  headers?: any;
+  serviceId?: () => string;
+  baseUrl?: () => string;
+  headers?: () => any;
 }) {
   return <T extends Function>(Target: T): T => {
     return GenericClient({
