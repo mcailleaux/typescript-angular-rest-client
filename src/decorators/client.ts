@@ -1,5 +1,10 @@
 import { Client as GenericClient } from 'typescript-rest-client';
-import { HttpHeaders, HttpParams, HttpRequest } from '@angular/common/http';
+import {
+  HttpEventType,
+  HttpHeaders,
+  HttpParams,
+  HttpRequest,
+} from '@angular/common/http';
 
 export function Client(args: {
   serviceId?: () => string;
@@ -19,6 +24,7 @@ export function Client(args: {
         init: { headers: any; params: any; withCredentials: boolean }
       ) => new HttpRequest(method, resUrl, body, init),
       defaultResponseBody: (res) => res.body,
+      skipResponse: (res) => HttpEventType.Sent === res.type,
     })(Target);
   };
 }

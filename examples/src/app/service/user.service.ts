@@ -1,25 +1,3 @@
-# typescript-angular-rest-client
-
-Angular HTTP client with Typescript Declarative Annotations, Observables, Interceptors and Timeouts.
-This package is production ready.
-
-This is an implementation for angular of typescript-rest-client : https://www.npmjs.com/package/typescript-rest-client
-
-## Installation
-
-```sh
-yarn add typescript-rest-client typescript-angular-rest-client
-```
-
-or
-
-```sh
-npm install typescript-rest-client typescript-angular-rest-client --save
-```
-
-## Example
-
-```ts
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
@@ -95,4 +73,3 @@ export class UserService extends RestClient {
     return null;
   }
 }
-```
