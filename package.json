@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/mcailleaux/typescript-angular-rest-client#readme",
   "dependencies": {
-    "typescript-rest-client": "^1.0.33"
+    "typescript-rest-client": "^1.0.34"
   },
   "devDependencies": {
     "@angular/common": "^10.1.1",
